@@ -1,0 +1,40 @@
+.nav-root {
+    padding: 0 5%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.nav-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    font-size: 16px;
+    margin-top: 2%;
+}
+
+.nav-sections > p {
+    cursor:pointer;
+}
+
+.nav-sections > a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-title {
+    margin-top: 2%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 36px;
+    color: #6855D6;
+}
+
+.nav-title > a {
+    text-decoration: none;
+    color: #6855D6;
+}
